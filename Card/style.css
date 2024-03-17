@@ -1,0 +1,105 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    /* font-family: 'IBM Plex Sans', sans-serif; */
+    background-color: hsl(47, 88%, 63%);
+   margin: 10% auto;
+    max-width: 1440px; 
+     
+  }
+  
+.container{
+    background-color:hsl(0, 0%, 100%) ;
+    margin: auto  ;
+    padding: 15px ;
+    border-radius: 10px;
+    width: 200px;
+    border: 0.5px solid hsl(0, 0%, 7%);
+    border-right:7px solid hsl(0, 0%, 7%) ;
+    border-bottom: 7px solid hsl(0, 0%, 7%);
+}
+.content{
+    width: auto;
+    
+}
+.image img{
+    border-radius: 10px;
+    width: 100%;
+}
+.text{
+    background-color: hsl(47, 88%, 63%);
+    padding: 3px;
+    width: 60px;
+    color: hsl(0, 0%, 7%);
+    border-radius: 5px;
+    margin: 10px 0px ;
+    
+}
+.text p{
+    text-align: center;
+}
+.content p{
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.next{
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+}
+h4{
+    margin: 5px 0px;
+    color: hsl(0, 0%, 7%);
+}
+h4:active{
+    color: hsl(47, 88%, 63%);
+}
+
+.fotter{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.fotter img{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    box-shadow: 2px solid hsl(0, 0%, 7%);
+}
+.fotter p{
+    margin-left: 10px;
+}
+@media only screen and (max-width: 600px){
+    body{
+        margin:20% auto ;
+        max-width: 375px;
+        
+    }
+    .container{
+        width: 200px;
+        align-items: center;
+        border-radius: 12px;
+        border-right:8px solid hsl(0, 0%, 7%) ;
+        border-bottom: 8px solid hsl(0, 0%, 7%);
+    }
+    }  
+    .fotter img{
+        height: 17px;
+        width: 17px;
+        border-radius: 50%;
+        box-shadow: 1px 1px 1px hsl(0, 0%, 7%);
+    }
+    .fotter{
+        margin-top: 15px;
+    }
+    .next{
+        font-weight: 100;
+        margin-bottom: 10px;
+
+    }
+}
